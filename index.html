@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joseph Ryan's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="profile-header">
+                <img src="profile.JPG" alt="Joseph Ryan" class="profile-pic">
+                <div class="header-text">
+                    <h1>Joseph Ryan</h1>
+                    <p>2nd Year BS-IT Student @ National University - MOA</p>
+                </div>
+            </div>
+            <nav id="main-nav">
+                <button id="hamburger-btn" aria-label="Toggle navigation menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section-container">
+            <div class="section-content">
+                <h2>About Me</h2>
+                <p>Hi there! I'm a dedicated college student pursuing a degree in Information Technology with a strong passion for web development and programming. I enjoy building creative and functional projects, always eager to explore new tools and technologies that can help solve real-world problems.</p>
+                <p>Outside of coding, I balance my time with hobbies that keep me energized and grounded—like playing online games, hitting the gym, reading thought-provoking books, and practicing meditation to stay focused and mindful.</p>
+                <p>I believe growth is a continuous journey, and I'm constantly sharpening my skills in IT—whether through hands-on experience, self-study, or collaborative learning. Each day is an opportunity for me to evolve as a developer and as a person.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section-container">
+            <div class="section-content">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-java"></i>
+                        <h3>Java</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-python"></i>
+                        <h3>Python</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-container">
+            <div class="section-content">
+                <h2>My Projects</h2>
+                <div class="projects-grid">
+                    <a href="https://fakelevii.github.io/MA1/" target="_blank" class="project-card">
+                        <h3>Midterm Activity 1</h3>
+                        <p>HTML/CSS website demonstrating fundamental web development skills.</p>
+                    </a>
+                    <a href="https://fakelevii.github.io/MA2/" target="_blank" class="project-card">
+                        <h3>Midterm Activity 2</h3>
+                        <p>Interactive JavaScript project showcasing DOM manipulation.</p>
+                    </a>
+                    <a href="https://fakelevii.github.io/MA4/" target="_blank" class="project-card">
+                        <h3>Midterm Activity 4</h3>
+                        <p>Advanced CSS layout project with responsive design.</p>
+                    </a>
+                    <a href="https://fakelevii.github.io/MA6/" target="_blank" class="project-card">
+                        <h3>Midterm Activity 6</h3>
+                        <p>JavaScript application with API integration.</p>
+                    </a>
+                    <a href="https://fakelevii.github.io/FA1/" target="_blank" class="project-card">
+                        <h3>Final Activity 1</h3>
+                        <p>Comprehensive web application demonstrating full skillset.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-container">
+            <div class="section-content">
+                <h2>Contact Me</h2>
+                <p>Feel free to connect with me on social media or send me a message:</p>
+                <div class="contact-links">
+                    <a href="https://www.facebook.com/josephh.ryan" target="_blank" class="social-link">
+                        <i class="fab fa-facebook"></i> Facebook
+                    </a>
+                    <a href="https://github.com/fakelevii" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Joseph Ryan. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
